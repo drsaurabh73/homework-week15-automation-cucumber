@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 15032069100,
+  "duration": 7850785400,
   "status": "passed"
 });
 formatter.scenario({
@@ -30,7 +30,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "I enter the email \"s_adep_patil81468@gmail.com\" in the email field create account page",
+  "name": "I enter the email \"s1_adep_patil81468@gmail.com\" in the email field create account page",
   "keyword": "And "
 });
 formatter.step({
@@ -157,41 +157,41 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 253745200,
+  "duration": 79273300,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninTab()"
 });
 formatter.result({
-  "duration": 17279097300,
+  "duration": 2748317800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "s_adep_patil81468@gmail.com",
+      "val": "s1_adep_patil81468@gmail.com",
       "offset": 19
     }
   ],
   "location": "CreateAccountTest.iEnterTheEmailInTheEmailFieldCreateAccountPage(String)"
 });
 formatter.result({
-  "duration": 137629300,
+  "duration": 94387800,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccountTest.iClickOnCreateAnAccountButton()"
 });
 formatter.result({
-  "duration": 90501100,
+  "duration": 55075200,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccountTest.iClickOnRadioButton()"
 });
 formatter.result({
-  "duration": 9383503900,
+  "duration": 2185893100,
   "status": "passed"
 });
 formatter.match({
@@ -204,7 +204,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredFirstnameInTheNameField(String)"
 });
 formatter.result({
-  "duration": 100600600,
+  "duration": 69876600,
   "status": "passed"
 });
 formatter.match({
@@ -217,7 +217,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredLastnameInTheLastNameField(String)"
 });
 formatter.result({
-  "duration": 103560500,
+  "duration": 61187399,
   "status": "passed"
 });
 formatter.match({
@@ -230,7 +230,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredPasswordInThePasswordField(String)"
 });
 formatter.result({
-  "duration": 118098400,
+  "duration": 69796199,
   "status": "passed"
 });
 formatter.match({
@@ -243,7 +243,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredDayOfBirthInTheField(String)"
 });
 formatter.result({
-  "duration": 193325500,
+  "duration": 102267200,
   "status": "passed"
 });
 formatter.match({
@@ -256,7 +256,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredMonthOfBirthInTheMonthField(String)"
 });
 formatter.result({
-  "duration": 182040600,
+  "duration": 79583500,
   "status": "passed"
 });
 formatter.match({
@@ -269,21 +269,21 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredYearOfBirthInTheYearField(String)"
 });
 formatter.result({
-  "duration": 119020000,
+  "duration": 64911800,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccountTest.iClickOnNewsletterButton()"
 });
 formatter.result({
-  "duration": 85624100,
+  "duration": 60815700,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccountTest.iClcikOnReceiveSpecialOffer()"
 });
 formatter.result({
-  "duration": 87805400,
+  "duration": 103784000,
   "status": "passed"
 });
 formatter.match({
@@ -296,7 +296,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredNameToDeliverInTheNameField(String)"
 });
 formatter.result({
-  "duration": 106226200,
+  "duration": 51196401,
   "status": "passed"
 });
 formatter.match({
@@ -309,7 +309,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredLastNameToDeliverInTheLastNameField(String)"
 });
 formatter.result({
-  "duration": 98979400,
+  "duration": 52226200,
   "status": "passed"
 });
 formatter.match({
@@ -322,7 +322,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredAddressInTheAddressField(String)"
 });
 formatter.result({
-  "duration": 121336200,
+  "duration": 71475300,
   "status": "passed"
 });
 formatter.match({
@@ -335,7 +335,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredAddresslineInTheAddresslineField(String)"
 });
 formatter.result({
-  "duration": 86122300,
+  "duration": 39963800,
   "status": "passed"
 });
 formatter.match({
@@ -348,7 +348,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredCityInTheCityField(String)"
 });
 formatter.result({
-  "duration": 116505000,
+  "duration": 56430899,
   "status": "passed"
 });
 formatter.match({
@@ -361,7 +361,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredStateInTheStateField(String)"
 });
 formatter.result({
-  "duration": 120790100,
+  "duration": 55566801,
   "status": "passed"
 });
 formatter.match({
@@ -374,7 +374,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredZipcodeInTheZipcodeField(String)"
 });
 formatter.result({
-  "duration": 98888900,
+  "duration": 52848000,
   "status": "passed"
 });
 formatter.match({
@@ -387,7 +387,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredCountryNameInTheField(String)"
 });
 formatter.result({
-  "duration": 66593200,
+  "duration": 36103299,
   "status": "passed"
 });
 formatter.match({
@@ -400,7 +400,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredAdditionalInfomationInTheField(String)"
 });
 formatter.result({
-  "duration": 115350700,
+  "duration": 62877001,
   "status": "passed"
 });
 formatter.match({
@@ -413,7 +413,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredHomeTelephoneNumberInTheField(String)"
 });
 formatter.result({
-  "duration": 150851100,
+  "duration": 67233700,
   "status": "passed"
 });
 formatter.match({
@@ -426,7 +426,7 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredMobileNumberInTheField(String)"
 });
 formatter.result({
-  "duration": 128757800,
+  "duration": 61767700,
   "status": "passed"
 });
 formatter.match({
@@ -439,14 +439,14 @@ formatter.match({
   "location": "CreateAccountTest.iEnteredAssignAnAddressInTheField(String)"
 });
 formatter.result({
-  "duration": 101380800,
+  "duration": 56589301,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateAccountTest.iClickOnRegisterButton()"
 });
 formatter.result({
-  "duration": 19534443500,
+  "duration": 4048602600,
   "status": "passed"
 });
 formatter.match({
@@ -459,11 +459,11 @@ formatter.match({
   "location": "CreateAccountTest.iCanSeeAccountField(String)"
 });
 formatter.result({
-  "duration": 46820000,
+  "duration": 32162801,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1115451100,
+  "duration": 686284700,
   "status": "passed"
 });
 formatter.uri("singin.feature");
@@ -475,7 +475,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 17302237700,
+  "duration": 5366591800,
   "status": "passed"
 });
 formatter.scenario({
@@ -505,14 +505,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 50100,
+  "duration": 24200,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninTab()"
 });
 formatter.result({
-  "duration": 17142729700,
+  "duration": 5710628700,
   "status": "passed"
 });
 formatter.match({
@@ -525,15 +525,15 @@ formatter.match({
   "location": "SignPageTest.iCanSeeTheTheMessageSigninSuccessful(String)"
 });
 formatter.result({
-  "duration": 31809600,
+  "duration": 32024600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1092049800,
+  "duration": 661572900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 15132298100,
+  "duration": 4799670501,
   "status": "passed"
 });
 formatter.scenario({
@@ -578,14 +578,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 27800,
+  "duration": 19301,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninTab()"
 });
 formatter.result({
-  "duration": 12227627800,
+  "duration": 3277852199,
   "status": "passed"
 });
 formatter.match({
@@ -598,8 +598,9 @@ formatter.match({
   "location": "SignPageTest.iEnterTheEmailInTheEmailField(String)"
 });
 formatter.result({
-  "duration": 113609700,
-  "status": "passed"
+  "duration": 20026338200,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\u0027email\u0027]\"}\n  (Session info: chrome\u003d101.0.4951.67)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027LAPTOP-56OMVNBM\u0027, ip: \u0027192.168.0.110\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [551074245cc440d3af473e262ec7e439, findElement {using\u003dxpath, value\u003d//input[@id\u003d\u0027email\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\drsau\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58816/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 551074245cc440d3af473e262ec7e439\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.sendKeys(Unknown Source)\r\n\tat com.automation.utility.Utility.sendTextToElement(Utility.java:76)\r\n\tat com.automation.pages.SignInPage.setEmail(SignInPage.java:55)\r\n\tat com.automation.steps.SignPageTest.iEnterTheEmailInTheEmailField(SignPageTest.java:30)\r\n\tat ✽.And I enter the email \"sampatil@gmail.com\" in the email field(singin.feature:12)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -611,25 +612,22 @@ formatter.match({
   "location": "SignPageTest.iEnterThePasswordInThePasswordField(String)"
 });
 formatter.result({
-  "duration": 104926200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninButtton()"
 });
 formatter.result({
-  "duration": 14178003000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SignPageTest.iCanSeeTheSigoutLinkDispayedOnTheScreen()"
 });
 formatter.result({
-  "duration": 45301400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 1081339800,
+  "duration": 776487200,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -725,7 +723,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 11530266400,
+  "duration": 4133405300,
   "status": "passed"
 });
 formatter.scenario({
@@ -779,14 +777,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 52700,
+  "duration": 29700,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninTab()"
 });
 formatter.result({
-  "duration": 16620437800,
+  "duration": 2106707100,
   "status": "passed"
 });
 formatter.match({
@@ -799,7 +797,7 @@ formatter.match({
   "location": "SignPageTest.iEnterInvalidUsernameInTheField(String)"
 });
 formatter.result({
-  "duration": 77197000,
+  "duration": 52429900,
   "status": "passed"
 });
 formatter.match({
@@ -812,14 +810,14 @@ formatter.match({
   "location": "SignPageTest.iEnterInvalidPasswordInThePasswordField(String)"
 });
 formatter.result({
-  "duration": 96647100,
+  "duration": 70628499,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninButtton()"
 });
 formatter.result({
-  "duration": 9308091000,
+  "duration": 743144100,
   "status": "passed"
 });
 formatter.match({
@@ -832,15 +830,15 @@ formatter.match({
   "location": "SignPageTest.iCanSeeTheErrorMessageInTheField(String)"
 });
 formatter.result({
-  "duration": 34933100,
+  "duration": 25071600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1017533200,
+  "duration": 647014300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 8095598599,
+  "duration": 4497406400,
   "status": "passed"
 });
 formatter.scenario({
@@ -894,14 +892,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 33499,
+  "duration": 26199,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninTab()"
 });
 formatter.result({
-  "duration": 6747315600,
+  "duration": 1190417901,
   "status": "passed"
 });
 formatter.match({
@@ -914,7 +912,7 @@ formatter.match({
   "location": "SignPageTest.iEnterInvalidUsernameInTheField(String)"
 });
 formatter.result({
-  "duration": 118928500,
+  "duration": 61337300,
   "status": "passed"
 });
 formatter.match({
@@ -927,14 +925,14 @@ formatter.match({
   "location": "SignPageTest.iEnterInvalidPasswordInThePasswordField(String)"
 });
 formatter.result({
-  "duration": 80161100,
+  "duration": 56365299,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninButtton()"
 });
 formatter.result({
-  "duration": 7307582300,
+  "duration": 1319363800,
   "status": "passed"
 });
 formatter.match({
@@ -947,15 +945,15 @@ formatter.match({
   "location": "SignPageTest.iCanSeeTheErrorMessageInTheField(String)"
 });
 formatter.result({
-  "duration": 43042401,
+  "duration": 23024000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1207970200,
+  "duration": 684262800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 12084529899,
+  "duration": 4642050400,
   "status": "passed"
 });
 formatter.scenario({
@@ -1009,14 +1007,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 54800,
+  "duration": 27500,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninTab()"
 });
 formatter.result({
-  "duration": 11241184500,
+  "duration": 3165892900,
   "status": "passed"
 });
 formatter.match({
@@ -1029,7 +1027,7 @@ formatter.match({
   "location": "SignPageTest.iEnterInvalidUsernameInTheField(String)"
 });
 formatter.result({
-  "duration": 76286500,
+  "duration": 46382501,
   "status": "passed"
 });
 formatter.match({
@@ -1042,14 +1040,14 @@ formatter.match({
   "location": "SignPageTest.iEnterInvalidPasswordInThePasswordField(String)"
 });
 formatter.result({
-  "duration": 89439700,
+  "duration": 83206800,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninButtton()"
 });
 formatter.result({
-  "duration": 9651142899,
+  "duration": 2748844600,
   "status": "passed"
 });
 formatter.match({
@@ -1062,15 +1060,15 @@ formatter.match({
   "location": "SignPageTest.iCanSeeTheErrorMessageInTheField(String)"
 });
 formatter.result({
-  "duration": 85959100,
+  "duration": 18287799,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1039442100,
+  "duration": 681526100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 11599535200,
+  "duration": 3879701101,
   "status": "passed"
 });
 formatter.scenario({
@@ -1124,14 +1122,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 50400,
+  "duration": 20900,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninTab()"
 });
 formatter.result({
-  "duration": 5819264601,
+  "duration": 2314213100,
   "status": "passed"
 });
 formatter.match({
@@ -1144,7 +1142,7 @@ formatter.match({
   "location": "SignPageTest.iEnterInvalidUsernameInTheField(String)"
 });
 formatter.result({
-  "duration": 76742100,
+  "duration": 65709999,
   "status": "passed"
 });
 formatter.match({
@@ -1157,14 +1155,14 @@ formatter.match({
   "location": "SignPageTest.iEnterInvalidPasswordInThePasswordField(String)"
 });
 formatter.result({
-  "duration": 97916200,
+  "duration": 60531000,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninButtton()"
 });
 formatter.result({
-  "duration": 5381628600,
+  "duration": 1164941600,
   "status": "passed"
 });
 formatter.match({
@@ -1177,15 +1175,15 @@ formatter.match({
   "location": "SignPageTest.iCanSeeTheErrorMessageInTheField(String)"
 });
 formatter.result({
-  "duration": 188824400,
+  "duration": 20102901,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1313057700,
+  "duration": 669563600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 10010011500,
+  "duration": 3828039399,
   "status": "passed"
 });
 formatter.scenario({
@@ -1235,14 +1233,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 54600,
+  "duration": 25700,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninTab()"
 });
 formatter.result({
-  "duration": 8016741501,
+  "duration": 3538651299,
   "status": "passed"
 });
 formatter.match({
@@ -1255,7 +1253,7 @@ formatter.match({
   "location": "SignPageTest.iEnterTheEmailInTheEmailField(String)"
 });
 formatter.result({
-  "duration": 117916100,
+  "duration": 55730300,
   "status": "passed"
 });
 formatter.match({
@@ -1268,32 +1266,32 @@ formatter.match({
   "location": "SignPageTest.iEnterThePasswordInThePasswordField(String)"
 });
 formatter.result({
-  "duration": 123276499,
+  "duration": 57302900,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSigninButtton()"
 });
 formatter.result({
-  "duration": 9440802000,
+  "duration": 2163613201,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iClickOnSignoutButton()"
 });
 formatter.result({
-  "duration": 7438945500,
+  "duration": 4701720500,
   "status": "passed"
 });
 formatter.match({
   "location": "SignPageTest.iCanSeeSignInLinkIsDispayedOnScreen()"
 });
 formatter.result({
-  "duration": 34397601,
+  "duration": 17822200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1041030399,
+  "duration": 672248400,
   "status": "passed"
 });
 formatter.uri("women.feature");
@@ -1305,7 +1303,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5366504100,
+  "duration": 3877028499,
   "status": "passed"
 });
 formatter.scenario({
@@ -1335,14 +1333,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 73299,
+  "duration": 31500,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnWomenTab()"
 });
 formatter.result({
-  "duration": 4376791300,
+  "duration": 2122748300,
   "status": "passed"
 });
 formatter.match({
@@ -1355,11 +1353,11 @@ formatter.match({
   "location": "WomenCategoryTest.iCanVerifyTextFromThePage(String)"
 });
 formatter.result({
-  "duration": 53831900,
+  "duration": 20041101,
   "status": "passed"
 });
 formatter.after({
-  "duration": 945050000,
+  "duration": 644416800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1480,7 +1478,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6147252599,
+  "duration": 6505743999,
   "status": "passed"
 });
 formatter.scenario({
@@ -1557,14 +1555,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 156399,
+  "duration": 18300,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnWomenTab()"
 });
 formatter.result({
-  "duration": 2321458199,
+  "duration": 3884586599,
   "status": "passed"
 });
 formatter.match({
@@ -1577,14 +1575,14 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectOnProductFromWomenPage(String)"
 });
 formatter.result({
-  "duration": 1206827000,
+  "duration": 1378473001,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClearTheQuantityFromQuantity()"
 });
 formatter.result({
-  "duration": 82862600,
+  "duration": 32689299,
   "status": "passed"
 });
 formatter.match({
@@ -1597,7 +1595,7 @@ formatter.match({
   "location": "WomenCategoryTest.iChangeQuantityFromProductPage(String)"
 });
 formatter.result({
-  "duration": 97791701,
+  "duration": 35413799,
   "status": "passed"
 });
 formatter.match({
@@ -1610,7 +1608,7 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectSizeOfTheProductFromDropDawn(String)"
 });
 formatter.result({
-  "duration": 174080700,
+  "duration": 79231699,
   "status": "passed"
 });
 formatter.match({
@@ -1623,14 +1621,14 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectColourOfTheProduct(String)"
 });
 formatter.result({
-  "duration": 5428599,
+  "duration": 26465500,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnAddToCartButton()"
 });
 formatter.result({
-  "duration": 109619400,
+  "duration": 40977701,
   "status": "passed"
 });
 formatter.match({
@@ -1643,22 +1641,22 @@ formatter.match({
   "location": "WomenCategoryTest.iCanSeeTheMessageProductAddedSuccessfully(String)"
 });
 formatter.result({
-  "duration": 5111613900,
+  "duration": 5042779899,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnCloseButton()"
 });
 formatter.result({
-  "duration": 103833500,
+  "duration": 32803400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1044494199,
+  "duration": 682739900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4968134101,
+  "duration": 3616142500,
   "status": "passed"
 });
 formatter.scenario({
@@ -1735,14 +1733,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 32800,
+  "duration": 24000,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnWomenTab()"
 });
 formatter.result({
-  "duration": 1923225700,
+  "duration": 1360076000,
   "status": "passed"
 });
 formatter.match({
@@ -1755,14 +1753,14 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectOnProductFromWomenPage(String)"
 });
 formatter.result({
-  "duration": 5595216400,
+  "duration": 1263249700,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClearTheQuantityFromQuantity()"
 });
 formatter.result({
-  "duration": 59419499,
+  "duration": 32503299,
   "status": "passed"
 });
 formatter.match({
@@ -1775,7 +1773,7 @@ formatter.match({
   "location": "WomenCategoryTest.iChangeQuantityFromProductPage(String)"
 });
 formatter.result({
-  "duration": 72638001,
+  "duration": 35126100,
   "status": "passed"
 });
 formatter.match({
@@ -1788,7 +1786,7 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectSizeOfTheProductFromDropDawn(String)"
 });
 formatter.result({
-  "duration": 163966100,
+  "duration": 72968600,
   "status": "passed"
 });
 formatter.match({
@@ -1801,14 +1799,14 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectColourOfTheProduct(String)"
 });
 formatter.result({
-  "duration": 4235701,
+  "duration": 1597301,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnAddToCartButton()"
 });
 formatter.result({
-  "duration": 121674600,
+  "duration": 40483600,
   "status": "passed"
 });
 formatter.match({
@@ -1821,22 +1819,22 @@ formatter.match({
   "location": "WomenCategoryTest.iCanSeeTheMessageProductAddedSuccessfully(String)"
 });
 formatter.result({
-  "duration": 5068490199,
+  "duration": 5044784501,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnCloseButton()"
 });
 formatter.result({
-  "duration": 95342701,
+  "duration": 32996500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 982953400,
+  "duration": 670080601,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1964668200,
+  "duration": 4054269299,
   "status": "passed"
 });
 formatter.scenario({
@@ -1913,16 +1911,15 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 66900,
+  "duration": 25401,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnWomenTab()"
 });
 formatter.result({
-  "duration": 20100382900,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]\"}\n  (Session info: chrome\u003d101.0.4951.67)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027LAPTOP-56OMVNBM\u0027, ip: \u0027192.168.0.110\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a10c41cc723964cd1f77921ce641a910, findElement {using\u003dxpath, value\u003d//header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\drsau\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52618/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a10c41cc723964cd1f77921ce641a910\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.automation.utility.Utility.clickOnElement(Utility.java:50)\r\n\tat com.automation.pages.HomePage.clickOnWomenTab(HomePage.java:37)\r\n\tat com.automation.steps.WomenCategoryTest.iClickOnWomenTab(WomenCategoryTest.java:14)\r\n\tat ✽.When I click on Women tab(women.feature:11)\r\n",
-  "status": "failed"
+  "duration": 5190676601,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1934,13 +1931,15 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectOnProductFromWomenPage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6399714699,
+  "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClearTheQuantityFromQuantity()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 35303500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1952,7 +1951,8 @@ formatter.match({
   "location": "WomenCategoryTest.iChangeQuantityFromProductPage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 44978501,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1964,7 +1964,8 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectSizeOfTheProductFromDropDawn(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 46378701,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1976,13 +1977,15 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectColourOfTheProduct(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1959499,
+  "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnAddToCartButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 59156700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1994,7 +1997,9 @@ formatter.match({
   "location": "WomenCategoryTest.iCanSeeTheMessageProductAddedSuccessfully(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5039639900,
+  "error_message": "org.junit.ComparisonFailure: product select expected:\u003c[Product successfully added to your shopping cart]\u003e but was:\u003c[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.automation.steps.WomenCategoryTest.iCanSeeTheMessageProductAddedSuccessfully(WomenCategoryTest.java:76)\r\n\tat ✽.And I can see the message \"Product successfully added to your shopping cart\" product added successfully(women.feature:18)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnCloseButton()"
@@ -2003,11 +2008,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 1077863001,
+  "duration": 831778399,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5233208701,
+  "duration": 10108421100,
   "status": "passed"
 });
 formatter.scenario({
@@ -2084,14 +2089,14 @@ formatter.match({
   "location": "SignPageTest.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 34199,
+  "duration": 21799,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnWomenTab()"
 });
 formatter.result({
-  "duration": 1555044801,
+  "duration": 7127595801,
   "status": "passed"
 });
 formatter.match({
@@ -2104,14 +2109,14 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectOnProductFromWomenPage(String)"
 });
 formatter.result({
-  "duration": 1549373099,
+  "duration": 4775043099,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClearTheQuantityFromQuantity()"
 });
 formatter.result({
-  "duration": 66213300,
+  "duration": 32332999,
   "status": "passed"
 });
 formatter.match({
@@ -2124,7 +2129,7 @@ formatter.match({
   "location": "WomenCategoryTest.iChangeQuantityFromProductPage(String)"
 });
 formatter.result({
-  "duration": 74575700,
+  "duration": 35987400,
   "status": "passed"
 });
 formatter.match({
@@ -2137,7 +2142,7 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectSizeOfTheProductFromDropDawn(String)"
 });
 formatter.result({
-  "duration": 180522300,
+  "duration": 83594300,
   "status": "passed"
 });
 formatter.match({
@@ -2150,14 +2155,14 @@ formatter.match({
   "location": "WomenCategoryTest.iSelectColourOfTheProduct(String)"
 });
 formatter.result({
-  "duration": 6274900,
+  "duration": 1577300,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnAddToCartButton()"
 });
 formatter.result({
-  "duration": 103066300,
+  "duration": 41517100,
   "status": "passed"
 });
 formatter.match({
@@ -2170,18 +2175,18 @@ formatter.match({
   "location": "WomenCategoryTest.iCanSeeTheMessageProductAddedSuccessfully(String)"
 });
 formatter.result({
-  "duration": 5060594300,
+  "duration": 5038308201,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenCategoryTest.iClickOnCloseButton()"
 });
 formatter.result({
-  "duration": 110642500,
+  "duration": 31685999,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1249697800,
+  "duration": 659343699,
   "status": "passed"
 });
 });

@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>May 16, 2022 10:01:07 AM</span>
+                    <span class='label suite-start-time blue darken-3'>May 16, 2022 06:22:46 PM</span>
 				</a>
 			</li>
 			<li>
@@ -130,10 +130,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>1</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>2</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -145,10 +145,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='92.308%'><span class='strong'>12</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='84.615%'><span class='strong'>11</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='7.692%'>1</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='15.385%'>2</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -160,10 +160,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='91.818%'><span class='strong'>101</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='94.545%'><span class='strong'>104</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0.909%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='7.273%'>8</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='1.818%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='3.636%'>4</span> others
 				</div>
 			</div>
 		</div>
@@ -180,12 +180,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>CreateAccountPage Test</span>
-						<span class='test-time'>May 16, 2022 10:01:08 AM</span>
+						<span class='test-time'>May 16, 2022 06:22:46 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 1m 4s+290ms</span>
+	<span class='duration right label'>0h 0m 18s+458ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">verify that user should create account successfully</span>
@@ -211,7 +211,7 @@
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And I enter the email "s_adep_patil81468@gmail.com" in the email field create account page</span>
+			<span class="bdd-step-name">And I enter the email "s1_adep_patil81468@gmail.com" in the email field create account page</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -413,15 +413,15 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='30'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='30'>
 					<div class='test-heading'>
 						<span class='test-name'>SignPage Test</span>
-						<span class='test-time'>May 16, 2022 10:02:13 AM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>May 16, 2022 06:23:06 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='31' status='pass'>
-	<span class='duration right label'>0h 0m 34s+484ms</span>
+	<span class='duration right label'>0h 0m 11s+113ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">User should navigate to signIn page successFully</span>
@@ -453,8 +453,8 @@
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='35' status='pass'>
-	<span class='duration right label'>0h 0m 41s+813ms</span>
+<div class='scenario node' test-id='35' status='fail'>
+	<span class='duration right label'>0h 0m 28s+117ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">verify that user should logIn successFully with valid credentials</span>
@@ -476,42 +476,76 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='38' class='node and pass' status='pass'>
+		<li test-id='38' class='node and fail' status='fail'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And I enter the email "sampatil@gmail.com" in the email field</span>
-				<div class='pre'>passed</div>
+				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-56OMVNBM', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [551074245cc440d3af473e262ec7e439, findElement {using=xpath, value=//input[@id='email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\drsau\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58816/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551074245cc440d3af473e262ec7e439
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy23.sendKeys(Unknown Source)
+	at com.automation.utility.Utility.sendTextToElement(Utility.java:76)
+	at com.automation.pages.SignInPage.setEmail(SignInPage.java:55)
+	at com.automation.steps.SignPageTest.iEnterTheEmailInTheEmailField(SignPageTest.java:30)
+	at ✽.And I enter the email "sampatil@gmail.com" in the email field(singin.feature:12)
+</pre></div>
 			
 		</li>
-		<li test-id='39' class='node and pass' status='pass'>
+		<li test-id='39' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And I enter the password "123456" in the password field</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='40' class='node and pass' status='pass'>
+		<li test-id='40' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And I click on signin buttton</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='41' class='node then pass' status='pass'>
+		<li test-id='41' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then I can see the sigout link dispayed on the screen</span>
-				<div class='pre'>passed</div>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="C:\Users\drsau\IdeaProjects\homework-week15-automation-cucumber-main/src/main/java/com/nopcommerce/demo/screenshots/verify_that_user_should_logIn_successFully_with_valid_credentials20220516062345.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'>skipped</div>
 			
 		</li>
 	</ul>
 </div>
 <div class='scenariooutline node' test-id='42' status='pass'>
-	<span class='duration right label'>0h 1m 59s+780ms</span>
+	<span class='duration right label'>0h 0m 34s+558ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">verify the ErrorMessage with InValid Credentials</span>
@@ -652,7 +686,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='71' status='pass'>
-	<span class='duration right label'>0h 0m 35s+196ms</span>
+	<span class='duration right label'>0h 0m 14s+372ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">verify that user should logOut successFully</span>
@@ -723,12 +757,12 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='79'>
 					<div class='test-heading'>
 						<span class='test-name'>WomenCategoryPage Test</span>
-						<span class='test-time'>May 16, 2022 10:06:09 AM</span>
+						<span class='test-time'>May 16, 2022 06:24:36 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='80' status='pass'>
-	<span class='duration right label'>0h 0m 9s+803ms</span>
+	<span class='duration right label'>0h 0m 6s+24ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">verify user should navigate to women category page successfully</span>
@@ -761,7 +795,7 @@
 	</ul>
 </div>
 <div class='scenariooutline node' test-id='84' status='fail'>
-	<span class='duration right label'>0h 1m 12s+643ms</span>
+	<span class='duration right label'>0h 1m 18s+929ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">verify user should add product to the cart successfully</span>
@@ -876,73 +910,46 @@
 						<span class="bdd-step-name">Given I am on homepage</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='109' class='node when fail' status='fail'><b>When</b>
+					<li test-id='109' class='node when pass' status='pass'><b>When</b>
 						<span class="bdd-step-name">When I click on Women tab</span>
-							<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]"}
-  (Session info: chrome=101.0.4951.67)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-56OMVNBM', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a10c41cc723964cd1f77921ce641a910, findElement {using=xpath, value=//header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\drsau\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52618/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a10c41cc723964cd1f77921ce641a910
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at com.automation.utility.Utility.clickOnElement(Utility.java:50)
-	at com.automation.pages.HomePage.clickOnWomenTab(HomePage.java:37)
-	at com.automation.steps.WomenCategoryTest.iClickOnWomenTab(WomenCategoryTest.java:14)
-	at ✽.When I click on Women tab(women.feature:11)
-</pre></div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='110' class='node and skip' status='skip'><b>And</b>
+					<li test-id='110' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I select on product "Printed Chiffon Dress" from women page</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='111' class='node and skip' status='skip'><b>And</b>
+					<li test-id='111' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I clear the quantity from quantity</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='112' class='node and skip' status='skip'><b>And</b>
+					<li test-id='112' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I change quantity "4" from product page</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='113' class='node and skip' status='skip'><b>And</b>
+					<li test-id='113' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I select size "S" of the product from drop dawn</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='114' class='node and skip' status='skip'><b>And</b>
+					<li test-id='114' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I select colour "Green" of the product</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='115' class='node and skip' status='skip'><b>And</b>
+					<li test-id='115' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I click on add to cart button</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='116' class='node and skip' status='skip'><b>And</b>
+					<li test-id='116' class='node and fail' status='fail'><b>And</b>
 						<span class="bdd-step-name">And I can see the message "Product successfully added to your shopping cart" product added successfully</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'><textarea>org.junit.ComparisonFailure: product select expected:<[Product successfully added to your shopping cart]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at com.automation.steps.WomenCategoryTest.iCanSeeTheMessageProductAddedSuccessfully(WomenCategoryTest.java:76)
+	at ✽.And I can see the message "Product successfully added to your shopping cart" product added successfully(women.feature:18)
+</textarea></div>
 					</li>
 					<li test-id='117' class='node then skip' status='skip'><b>Then</b>
 						<span class="bdd-step-name">Then I click on close button</span>
 						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\Users\drsau\IdeaProjects\homework-week15-automation-practice/src/main/java/com/nopcommerce/demo/screenshots/verify_user_should_add_product_to_the_cart_successfully20220516100717.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="C:\Users\drsau\IdeaProjects\homework-week15-automation-cucumber-main/src/main/java/com/nopcommerce/demo/screenshots/verify_user_should_add_product_to_the_cart_successfully20220516062534.png"><i class='material-icons'>panorama</i></a></li>
 						</ul>
 							<div class='pre'>skipped</div>
 					</li>
@@ -1069,17 +1076,17 @@ Session ID: a10c41cc723964cd1f77921ce641a910
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>May 16, 2022 10:06:57 AM</td>
-                                                        <td class='linked' test-id='109'>WomenCategoryPage Test.verify user should add product to the cart successfully.verify user should add product to the cart successfully.When I click on Women tab</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]"}
+                                                        <td>May 16, 2022 06:23:25 PM</td>
+                                                        <td class='linked' test-id='38'>SignPage Test.verify that user should logIn successFully with valid credentials.And I enter the email "sampatil@gmail.com" in the email field</td>
+                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
   (Session info: chrome=101.0.4951.67)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'LAPTOP-56OMVNBM', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a10c41cc723964cd1f77921ce641a910, findElement {using=xpath, value=//header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\drsau\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52618/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a10c41cc723964cd1f77921ce641a910
+Command: [551074245cc440d3af473e262ec7e439, findElement {using=xpath, value=//input[@id='email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\drsau\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58816/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551074245cc440d3af473e262ec7e439
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1097,12 +1104,42 @@ Session ID: a10c41cc723964cd1f77921ce641a910
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at com.automation.utility.Utility.clickOnElement(Utility.java:50)
-	at com.automation.pages.HomePage.clickOnWomenTab(HomePage.java:37)
-	at com.automation.steps.WomenCategoryTest.iClickOnWomenTab(WomenCategoryTest.java:14)
-	at ✽.When I click on Women tab(women.feature:11)
+	at com.sun.proxy.$Proxy23.sendKeys(Unknown Source)
+	at com.automation.utility.Utility.sendTextToElement(Utility.java:76)
+	at com.automation.pages.SignInPage.setEmail(SignInPage.java:55)
+	at com.automation.steps.SignPageTest.iEnterTheEmailInTheEmailField(SignPageTest.java:30)
+	at ✽.And I enter the email "sampatil@gmail.com" in the email field(singin.feature:12)
 </pre></pre></td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                        <li class='exception displayed active'>
+                            <div class='exception-heading'>
+                                <span class='exception-name'>org.junit.ComparisonFailure</span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+                            </div>
+                            <div class='exception-content hide'>
+                                <div class='exception-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                    <tr>
+                                                        <td>May 16, 2022 06:25:29 PM</td>
+                                                        <td class='linked' test-id='116'>WomenCategoryPage Test.verify user should add product to the cart successfully.verify user should add product to the cart successfully.And I can see the message "Product successfully added to your shopping cart" product added successfully</td>
+                                                        <td><pre><textarea>org.junit.ComparisonFailure: product select expected:<[Product successfully added to your shopping cart]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at com.automation.steps.WomenCategoryTest.iCanSeeTheMessageProductAddedSuccessfully(WomenCategoryTest.java:76)
+	at ✽.And I can see the message "Product successfully added to your shopping cart" product added successfully(women.feature:18)
+</textarea></pre></td>
                                                     </tr>
                                         </tbody>
                                     </table>
@@ -1146,19 +1183,19 @@ Session ID: a10c41cc723964cd1f77921ce641a910
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>May 16, 2022 10:01:07 AM</div>
+					<div class='panel-lead'>May 16, 2022 06:22:46 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>May 16, 2022 10:07:34 AM</div>
+			 		<div class='panel-lead'>May 16, 2022 06:26:03 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>386,205ms</div>
+					<div class='panel-lead'>196,540ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1207,31 +1244,31 @@ Session ID: a10c41cc723964cd1f77921ce641a910
 
 		<script>
 			var statusGroup = {
-				passParent: 2,
-				failParent: 1,
+				passParent: 1,
+				failParent: 2,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 2,
 				
-				passChild: 12,
-				failChild: 1,
+				passChild: 11,
+				failChild: 2,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 1,
+				exceptionsChild: 2,
 				
-				passGrandChild: 101,
-				failGrandChild: 1,
+				passGrandChild: 104,
+				failGrandChild: 2,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 8,
+				skipGrandChild: 4,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 9,
+				exceptionsGrandChild: 6,
 			};
 		</script>
 		

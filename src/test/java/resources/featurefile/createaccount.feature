@@ -4,7 +4,7 @@
     Scenario: verify that user should create account successfully
       Given I am on homepage
       When  I click on Signin tab
-      And   I enter the email "s_adep_patil81468@gmail.com" in the email field create account page
+      And   I enter the email "s1_adep_patil81468@gmail.com" in the email field create account page
       And   I click on create an account button
       And   I click on Radio button
       And   I entered firstname "simon" in the name field
